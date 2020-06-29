@@ -79,7 +79,7 @@ public int shortestPathBinaryMatrix(int[][] grids) {
         if (grids == null || grids.length == 0 || grids[0].length == 0) {
             return -1;
         }
-        int[][] direction = {{1, -1}, {1, 0}, {1, 1}, {0, -1}, {0, 1}, {-1, -1}, {-1, 0}, {-1, 1}};
+        int[][] direction = { {1, -1}, {1, 0}, {1, 1}, {0, -1}, {0, 1}, {-1, -1}, {-1, 0}, {-1, 1}};
         int m = grids.length, n = grids[0].length;
         Queue<Pair<Integer, Integer>> queue = new LinkedList<>();
         queue.add(new Pair<>(0, 0));
@@ -694,7 +694,7 @@ word = "ABCB", -> returns false.
 ```
 
 ```java
-private final static int[][] direction = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+private final static int[][] direction = { {1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 private int m;
 private int n;
 
