@@ -311,7 +311,7 @@ private int minNumber(int[] nums, int l, int h) {
 本题的输入是数组而不是矩阵（二维数组），因此需要先将数组转换成矩阵。
 
 ```java
-private final static int[][] next = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
+private final static int[][] next = { {0, -1}, {0, 1}, {-1, 0}, {1, 0} };
 private int rows;
 private int cols;
 
@@ -370,7 +370,7 @@ private char[][] buildMatrix(char[] array) {
 使用深度优先搜索（Depth First Search，DFS）方法进行求解。回溯是深度优先搜索的一种特例，它在一次搜索过程中需要设置一些本次搜索过程的局部状态，并在本次搜索结束之后清除状态。而普通的深度优先搜索并不需要使用这些局部状态，虽然还是有可能设置一些全局状态。
 
 ```java
-private static final int[][] next = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
+private static final int[][] next = { {0, -1}, {0, 1}, {-1, 0}, {1, 0} };
 private int cnt = 0;
 private int rows;
 private int cols;

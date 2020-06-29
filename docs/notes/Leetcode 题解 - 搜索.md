@@ -307,7 +307,7 @@ private int getShortestPath(List<Integer>[] graphic, int start, int end) {
 
 ```java
 private int m, n;
-private int[][] direction = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+private int[][] direction = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
 
 public int maxAreaOfIsland(int[][] grid) {
     if (grid == null || grid.length == 0) {
@@ -357,7 +357,7 @@ Output: 3
 
 ```java
 private int m, n;
-private int[][] direction = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+private int[][] direction = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
 
 public int numIslands(char[][] grid) {
     if (grid == null || grid.length == 0) {
@@ -459,7 +459,7 @@ X O X X
 先填充最外侧，剩下的就是里侧了。
 
 ```java
-private int[][] direction = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+private int[][] direction = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
 private int m, n;
 
 public void solve(char[][] board) {
@@ -527,7 +527,7 @@ Return:
 ```java
 private int m, n;
 private int[][] matrix;
-private int[][] direction = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+private int[][] direction = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
 
 public List<List<Integer>> pacificAtlantic(int[][] matrix) {
     List<List<Integer>> ret = new ArrayList<>();
